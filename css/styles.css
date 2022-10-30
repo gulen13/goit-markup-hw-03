@@ -51,10 +51,12 @@ img {
 }
 
 /* -------------Header--------------- */
+header {
+    border-bottom: 1px solid #ececec;
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .nav {
   display: flex;
@@ -132,9 +134,8 @@ img {
 /* Hero */
 .section-hero {
   background-color: var(--main-background-color);
-}
-.hero-div {
-  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -145,10 +146,9 @@ img {
   text-transform: uppercase;
   color: var(--main-title-color);
   width: 696px;
-  padding-top: 200px;
-  padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-weight: 700;
@@ -188,6 +188,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-text-color);
+  margin-bottom: 10px;
 }
 .benefits-paragraph {
   line-height: 1.71;
@@ -197,6 +198,10 @@ img {
 /* Benefits */
 
 /* Work */
+.work-section {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
 .work-title {
   font-size: 36px;
   line-height: 1.16;
@@ -238,8 +243,9 @@ img {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-.team-item-img {
-  margin-bottom: 30px;
+.team-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-item-title {
   font-weight: 500;
@@ -247,14 +253,13 @@ img {
   line-height: 1.18;
   text-align: center;
   color: var(--main-text-color);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .team-item-p {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
 }
 /* Team */
 
@@ -269,7 +274,7 @@ img {
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-list {
   display: flex;
@@ -328,6 +333,10 @@ img {
 /* -------------Portfolio end--------------- */
 
 /* -------------Footer--------------- */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .logo-footer {
   font-family: "Raleway";
   font-style: normal;
@@ -336,7 +345,6 @@ img {
   line-height: 1.19;
   color: var(--main-logo-button-color);
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .logo-span-footer {
@@ -344,9 +352,6 @@ img {
 }
 .footer {
   background-color: var(--main-background-color);
-}
-.footer-list {
-  padding-bottom: 60px;
 }
 .footer-list-adress {
   line-height: 1.5;
